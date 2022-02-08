@@ -11,4 +11,5 @@ const close = document.querySelector(".close");
 close.addEventListener("click", function() 
 {
     console.log("hai premuto sulla x");
+    document.querySelector(".hamburger-menu").style.display = "none";
 });
