@@ -7,3 +7,8 @@ hambMenu.addEventListener("click", function()
     document.querySelector(".hamburger-menu").style.display = "block";
 });
 
+const close = document.querySelector(".close");
+close.addEventListener("click", function() 
+{
+    console.log("hai premuto sulla x");
+});
