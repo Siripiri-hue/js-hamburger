@@ -3,5 +3,7 @@ console.log(hambMenu);
 
 hambMenu.addEventListener("click", function() 
 {
-    alert(`it's working`);
+    // alert(`it's working`);
+    document.querySelector(".hamburger-menu").style.display = "block";
 });
+
